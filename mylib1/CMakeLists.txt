@@ -1,0 +1,16 @@
+define_lib(
+    mylib1
+    SRC_DIR
+        .
+    SOURCES
+        mylib1.cpp
+    PRIV_HEADERS
+        lib1_priv.h
+    #API_DIR
+    API_HEADERS
+        mylib1.h
+    #INSTALL_DIR
+    #DEFS_ADD
+    #LIBS
+    #SYS_LIBS
+)

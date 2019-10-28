@@ -1,0 +1,14 @@
+define_utest(
+    demo_infra_utest
+    SRC_DIR
+        .
+    SOURCES
+        main.cpp
+    #PRIV_HEADERS
+    #API_HEADERS
+    #API_DIR
+    LIBS
+        demo_infra::mylib1
+        demo_infra::mylib2
+    #SYS_LIBS
+)
