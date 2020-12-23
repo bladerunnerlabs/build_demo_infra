@@ -1,6 +1,6 @@
 #ifndef MYLIB2_H_INCLUDED
 #define MYLIB2_H_INCLUDED
 
-void mylib2_function();
+int mylib2_function(int x);
 
 #endif
